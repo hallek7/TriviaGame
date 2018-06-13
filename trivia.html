@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="eng">
+
+<title>Trivia Game</title>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/trivia.css">
+</head>
+
+<html>
+
+<body>
+
+    <div class="container">
+        <div class="header text-center clearfix">
+            <h1> <u>Easy Breathey Trivia </u> <br>
+             You'll have 20 Seconds to Answer Each Question
+             </h1>
+        </div>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div id="game">
+                    <p id="remaining-time" class="lead">Remaining Time:
+                        <span id="timer"></span>
+                    </p>
+                    <p id="question" class="lead"></p>
+                </div>
+                <div id="results">
+                </div>
+            </div>
+
+            <div class="row">
+                <div id="choices" class="text-center">
+                    <button id="start" class="btn btn-info btn-lg">Click Me to Start the Game</button>
+                    <div id="options">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>         
+        <script src="assets/javaScript/trivia.js"></script>
+
+         
+</body>
+
+</html>

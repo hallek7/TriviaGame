@@ -1,0 +1,32 @@
+
+body {
+	 
+    background-image:url(../images/OooCean.jpg);
+}
+ 
+.text-muted {
+	color:#f6f6f6;
+}
+
+.last-seconds{
+  color: red;
+}
+
+.option{
+  margin: 15px;
+}
+
+.container {
+ 
+	 font-size: 22px; 
+	
+	 margin-left: 0 auto;
+	 margin-top: 5%;
+	 color: #f6f6f6;
+}
+.jumbotron{
+	background-color:teal;
+}
+h1 {
+	color:blue;
+}
